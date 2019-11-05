@@ -4,9 +4,9 @@
 // this also means that we need to import the component 
 // with curly braces like this { selectedSong }
 
-export const selectedSong = song => {
+export const selectSong = song => {
   return {
-    type: "SELECTED_SONG",
+    type: "SONG_SELECTED",
     payload: song
   };
 };
