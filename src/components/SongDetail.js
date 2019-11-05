@@ -13,7 +13,7 @@ const SongDetail = ({song}) => {
           <div className="center aligned description">
             <p>Title: {song.title}</p>
             <p>Duration: {song.duration}</p>
-            <p>Duration: {song.rating}</p>
+            <p>Rating: {song.rating}</p>
           </div>
         </div>
         <div className="extra content"></div>
